@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.fixwidth{
+    width: 1000px;
+    margin: auto;
+}
+
+.main-div{
+    width: 1024px;
+    margin: 30px auto;
+}
+
+.header{
+    background-color: black;
+
+}
+
+.header-L{
+    width: 30%;
+    float: left;
+}
+
+.header-L img{
+    width: 120px;
+    height: auto;
+    padding-left: 25px;
+}
+
+.header-R{
+    width: 70%;
+    float: right;
+}
+
+.header-R ul{
+
+    list-style: none;
+    text-align: right;
+    margin-right: 28px;
+}
+.header-R ul li{
+
+    display: inline-block;
+}
+.header-R ul li a{
+
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0 20px;
+    display: inline-block;
+    line-height: 73px;
+}
+.header-R ul li a:hover{
+
+}
+
+/* banner section */
+
+.banner{
+    background-image: url(./a0c6042d4612d7adf44692fffac7e082.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 195px 0;
+}
+
+.inner{
+    margin-left: 88px;
+}
+
+.banner h2{}
+.banner h5{}
+
+.btn{
+
+    margin-left: 88px;
+    margin-top: 30px;
+    background: #000;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+.btn a{
+
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+/* container section */
+.container{
+    background-color: #444;
+}
+.container p{
+    padding: 60px 60px;
+    font-size: 26px;
+    color: #fff;
+}
+
+.container-L{
+    width: 67%;
+    float: left;
+}
+
+.container-R{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.container-R img{
+    width: 129px;
+    height: auto;
+    padding: 35px 20px;
+}
+/* foter section */
+.foter-bottom{
+    background-color: #458b83;
+    text-align: center;
+}
+
+.foter-bottom h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+        
+    color: #fff;
+}
+
+.f-bottom1{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.f-bottom1 span{
+    color: #fff;
+}
+
+.f-bottom1 img{
+    max-width: 100%;
+}
